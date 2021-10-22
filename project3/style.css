@@ -1,0 +1,124 @@
+body{margin: 0;}
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+.header .backg{
+    background-image: url(img/bg.png);
+    background-attachment: scroll;
+    background-size: cover;
+    height: 400px;
+    background-repeat: no-repeat;
+    opacity: .9; 
+    overflow: hidden;
+}
+.header .nav {
+    background-color: rgba(37, 47, 49,.7);
+   color: #fff;
+   overflow: hidden;
+   height: 12%;
+   
+}
+.header .nav h3{float: left;text-transform: uppercase;margin:1% 2%;font-size: 25px;color: #b79e21;}
+.header .nav h3 span{font-style: italic;font-size: 16px;color: lightgray;}
+
+.header .nav ul{
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    margin: 1% 2%;
+    
+}
+.header .nav ul li{
+    float: left;
+    text-transform: capitalize;
+    margin-right: 30px;
+    font-size: 20px;
+}
+.header .nav ul li a {color: white;text-decoration: none;}
+.header .nav ul li a.f,
+.header .nav ul li a:hover{color: #b79e21;transition: .7s; }
+.header .intro h1{
+    padding-top: 5%;
+    width: 400px;
+    font-size: 50PX;
+    color:rgb(37, 47, 49)
+}
+    .header .intro p{
+        /* padding-left: 15%;  */
+        color:rgb(37, 47, 49);
+        font-weight: bolder;
+    }
+.about{overflow: hidden; padding: 3% 0;background-color: #131916}
+.about .p1{ 
+    float: left;
+    width: 70%;
+    color:#85c69c;
+}
+.about .p1 h1{text-transform: uppercase ; }
+.about .icon1 {
+    float: left;
+    width: 30%;
+}
+.about .icon1 img{width:50%}
+.work{
+    background-color:rgb(37, 47, 49);
+    height: 400px;
+    overflow: hidden;
+}
+.work .p2{
+    text-align: center;
+    color: #b79e21;;
+    padding-top: 10px;
+    text-transform: uppercase;
+
+}
+.work .img div{
+    float: left;
+    width: 33.33333%
+}
+.work .img div img{
+    width: 90%;
+}
+.work p{
+    color: #b79e21;
+    text-align: center;
+    padding: 5% 0%;
+}
+/* start of contact */
+.contact{
+    overflow: hidden;
+    background-color: #131916;
+}
+.contact .contactme{
+    margin: 8% 2% 0 10%;
+}
+.contact .contactme h3{color:#85c69c}
+.contact .contactme p,address{color: #547e63}
+.contact strong{color:#85c69c}
+.contact .contactme, .form{
+    float: left;
+    width: 40%;
+}
+.contact .form{margin: 8% 0;}
+.contact .form label{color:#85c69c; display: block; margin: 10px 0px;  }
+.contact .form input{
+    background-color:#4b5557;
+    border: 0;
+    width: 80%;
+    height: 30px; 
+    color:#fff;
+}
+.contact .form textarea{
+    background-color:#4b5557;
+    width: 80%;
+    color:#fff;
+    height: 100px;
+}
+/* end of skills */
+/* start of footer */
+.footer {background-color:#616161; height: 30px;}
+.footer p{text-align: center; color: white; margin: 0;}
+/* end of footer */
