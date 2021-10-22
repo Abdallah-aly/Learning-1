@@ -1,0 +1,335 @@
+body{
+   height: auto;
+    margin: 0;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+.head .slider{
+    background-image: url(img/office.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+    
+}
+.head .slider .intro{
+    text-align: center;
+    color: white;
+    padding-top: 180px;
+    
+}
+.head .slider .intro h2{
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding: 4px 0px;
+    width: 400px;
+    margin: 0px auto;
+    font-size: 50PX;
+}
+.head .slider .intro button{
+    background: none;
+    margin-top: 20px;
+    padding: 10px 30px; 
+    color: white;
+    font-size: 20PX;
+    border: 2px solid white;
+}
+.head .slider .intro button:hover{border: 2px solid #30B576;color:#30B576}
+.head .nav {
+    background-color: #252F31;
+   color: #fff;
+   overflow: hidden;
+}
+.head .nav h2{float: left;text-transform: uppercase;}
+.head .nav h2 span{color: #30B576;}
+
+.head .nav ul{
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    
+}
+.head .nav ul li{
+    float: left;
+    padding: 10px;
+    text-transform: capitalize;
+}
+.head .nav ul li a {color: white;text-decoration: none;}
+.head .nav ul li a.f,
+.head .nav ul li a:hover{color: #30B576; }
+/* features */
+
+.features{
+    overflow: hidden;
+    margin: 20px 0px;
+    padding-top:15px; 
+     
+}
+.features .feat{
+    float: left;
+    width: 33.33333%;
+    height: 150px;
+    }
+.features .feat h3{
+    text-transform: capitalize;
+    margin-left: 20px; 
+    color: #252F31;
+}
+.features .feat p{
+    color:#777;
+    line-height: 1.5;
+    padding: 5px;
+}
+
+/* end of features */
+
+/* start of about me */
+
+.aboutme {
+    overflow: hidden;
+    height: 303px;
+   }
+.aboutme .img{
+    float: left;
+    width: 30%;
+   }
+.aboutme .img img{width: 100%;height: 100%;}
+
+.aboutme .info{
+    float: right;
+    width:70%;
+    background-color: #fbfbfb;
+    color: #252F31;
+    margin-top: -10px ;
+    
+}
+
+.aboutme .info  >h3 {
+    margin-left:20px;
+    line-height: 1.2;
+    color:#777
+    
+}
+.aboutme .info  >p {
+    margin-left:20px;
+    line-height: 1.2;
+    color:#777
+}
+.aboutme .hobb{
+    overflow: hidden;
+    margin: 20px;
+    color: #252F31;
+}
+.aboutme .hobb h4{margin-top:0px;display: inline; }
+
+.aboutme .hobb  div{
+    float: left;
+    width:48%;
+    padding-left:2%;
+     }
+    .aboutme .info .hobb img{
+        width:30px;
+        margin-bottom: -9px;
+        margin-right: 10px;
+    }
+/* end of about me */
+/* start of Skills */
+.my-skills{
+    overflow: hidden;
+    margin:45px 0px;
+}
+.my-skills .skills, .progress{
+    float: left;
+    width: 50%;
+    }
+.my-skills .skills h2{
+    color: #252F31;
+
+}
+.my-skills .skills p{color:#777; line-height: 1.7;}
+.my-skills .skills button{
+    background: none;
+    margin-top: 20px;
+    padding: 8px 20px; 
+    color: #30b576;
+    font-size: 20PX;
+    border: 2px solid #30b576;
+    }
+.my-skills .progress .content{
+        margin: 30px 0 0 30px;
+    }
+.my-skills .progress .content h3{margin: 0; font-family: courier; }
+.my-skills .progress .content div{
+        background-color: #f2f2f2;
+        height: 25px;
+         
+    }
+.my-skills .progress .content div span{
+    background-color: #30b576;
+    display: block;
+    height: 25px;
+    line-height: 25px;
+    text-align: right;
+    font-weight: bold;
+    color: white;
+}
+/* end of skills  */
+/* start of resume */
+.resume{
+
+    background-color: #f2f2f2;
+    text-align: center; 
+}
+.resume h2 {
+    color: #1f2229;
+    padding: 30px 0px 15px 0;
+    font-family: courier;
+    text-transform: uppercase
+}
+.resume p{
+    line-height: 1.8;
+    color: #777;
+}
+.resume button{
+    background: none;
+    margin: 5px 0 35px 0;
+    padding: 5px 20px; 
+    color: #30b576;
+    font-size: 15PX;
+    font-weight: bold;
+    border: 2px solid #30b576;
+    text-transform: uppercase;
+
+}
+/* end of resume */
+/* start of edu */
+.my-edu{
+    overflow: hidden;
+}
+.my-edu .edu, .educ{
+    float: left;
+    width: 40%;
+    }
+.my-edu .edu ,.educ{margin: 6% 0 0 6%;}
+.my-edu .edu ,.educ p{color: #777}
+.my-edu .edu h3{
+    font-size: 25px;
+    margin-bottom: 50px;
+    color:#252F31;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+ }
+ .my-edu .educ h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color:#252F31;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+ }
+ .my-edu .educ hr{height: .5px;}
+ .my-edu .educ span{
+    width: 60px;
+    background-color: #30B576;
+    color: white;
+    display: block;
+    text-align: center
+}
+/* end of edu */
+/* start of exp */
+.my-exp{
+    overflow: hidden;
+}
+.my-exp .exp, .wexp{
+    float: left;
+    width: 40%;
+    margin: 5% 0 0 5%;
+    }
+.my-exp .exp ,.wexp p{color: #777}
+.my-exp .exp h3{
+    font-size: 25px;
+    margin-bottom: 50px;
+    color:#252F31;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+ }
+ .my-exp .wexp h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color:#252F31;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width:350px;
+ }
+ .my-exp .wexp p{width:350px;}
+ .my-exp .wexp hr{height: .2px; width: 350px;margin:20px 0 5px 0; background-color: #777}
+ .my-exp .wexp span{
+    width: 60px;
+    background-color: #30B576;
+    color: white;
+    display: block;
+    text-align: center
+}
+/* end of exp*/
+/* start of testemonials */
+.testemonials{
+     background-color: #f2f2f2;
+    text-align: center; 
+    padding: 25px 0px;
+}
+.testemonials q{
+    color: #777;
+    font: italic bold 15px/1.7 arial;
+    }
+    .testemonials h3{ padding-top:10px;color:#252F31;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+/* end of testemonials */
+/* start of portfolio */
+.portfolio {
+    overflow: hidden;
+    text-align: center;
+    }
+.portfolio h2{padding-top:30px; color:#252F31;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.portfolio p{ padding-top: 20px; color: #777;font: bold 15px/1.7 arial;}    
+.portfolio .my-work div img{width: 92%; margin: 10%;}
+    
+.portfolio .my-work div{
+    float: left;
+    width: 33.33333%;
+    margin-bottom: -25px; 
+}
+
+/* end of portfolio */
+/* start of contact */
+.contact{
+    overflow: hidden;
+    background-color: #131916;
+}
+.contact .contactme{
+    margin: 8% 2% 0 10%;
+}
+.contact .contactme h3{color:white}
+.contact .contactme p,address{color: #c3c3c3}
+.contact strong{color:#f3f3f3;}
+.contact .contactme, .form{
+    float: left;
+    width: 40%;
+}
+.contact .form{margin: 8% 0;}
+.contact .form label{color:#fff; display: block; margin: 10px 0px;  }
+.contact .form input{
+    background-color:#4b5557;
+    border: 0;
+    width: 80%;
+    height: 30px; 
+    color:#fff;
+}
+.contact .form textarea{
+    background-color:#4b5557;
+    width: 80%;
+    color:#fff;
+    height: 100px;
+}
+/* end of skills */
+/* start of footer */
+.footer {background-color:#616161; height: 30px;}
+.footer p{text-align: center; color: white; margin: 0;}
+/* end of footer */
