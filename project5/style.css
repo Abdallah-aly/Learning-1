@@ -1,0 +1,429 @@
+body{
+    height: 3300px;
+    margin: 0%;
+    box-sizing: border-box;
+    perspective: 100px;
+    background-color: #F0F0F0;
+    perspective: 1000px;
+}
+/* start of head */
+.head .slider{
+    background-image: url(img/bcgr.jpeg);
+    background-attachment: scroll;
+    background-size: cover;
+    width: 100%;height: 500px;
+    overflow: hidden;
+}
+.slider .nav{
+    width: 100%;height:12%;
+    background-color: rgba(251, 246, 246, .49);
+}
+.slider .nav:hover span{color:#227e3e }
+.slider .nav h1 {float: left;width: 40%}
+.slider .nav h1{
+    margin: .5% 0 0 5%;
+    text-transform: capitalize;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.nav h1 span{color:#026721}
+.slider .nav ul{
+    width: 40%;
+    list-style: none;
+    float: left;
+text-transform: capitalize;
+}
+.slider .nav li{
+    float: left;
+    margin-left: 9%;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width:16%;height: 100%;
+    }
+.slider .nav li:hover{
+    font-size: 17px;
+    cursor: pointer;
+    color: #026721;
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out
+    }
+.slider h2{
+    text-align: center;
+    font-size: 65px;
+    color: #026721;
+}
+.slider p{
+    width: 70%;
+    margin-left:17.5%;
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+    text-shadow: 0.5px 0.5px #174400;
+}
+.slider .button1{
+    width: 200px;height: 40px;
+    border: 2px solid #174400;
+    text-align: center;
+    margin-left: 42%;
+    margin-top: 2%;
+    border-radius: 25px;
+    font-size: 30px;
+}
+.slider .button1:hover {
+    color:#fff;
+    background-image: linear-gradient(45deg,#174400 ,#10d84d );
+    cursor: pointer;
+    transition: .4s all linear;
+    border: 2px solid #ccc;
+}
+/* end of head */
+/* start of know us */
+.fcon{width: 100%; height: 600px}
+.fcon h1{
+    width: 350px;
+    margin: 4% 36%;
+    text-align: center;
+    color: #174400;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    line-height: 2
+}
+.fcon .bg{
+    width: 100%;height: 100%;
+    background-image: url(img/sc.png);
+    background-size: cover;
+}
+.fcon .bg .content h2{
+    font-size: 50px;
+    padding: 5% 0 0 10%;
+    color: #174400;
+}
+.fcon .bg .content p{
+    width:50%; 
+    font-size: 20px;
+    padding-left: 10%;
+    color: #484848
+}
+.fcon .bg .content .button2{
+    width: 200px;height: 40px;
+    border: 2px solid #174400;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 4%;
+    border-radius: 25px;
+    font-size: 30px;
+}
+.fcon .bg .content .button2:hover {
+    color:#fff;
+    background-image: linear-gradient(45deg,#174400 ,#10d84d );
+    cursor: pointer;
+    transition: .4s all linear;
+    border: 2px solid #ccc;
+}
+/* end of know us */
+/* start of our work */
+.scon h1{
+    width: 350px;
+    margin: 13% 36% 3% 36%;
+    text-align: center;
+    color: #174400;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    line-height: 2
+}
+.scon .content{
+    width: 70%;
+    height: 600px;
+    margin: 0% 15%;
+}
+.scon .content .content1{
+    width: 95%; height: 48.5%;
+    margin:0 2.5%;
+    overflow: hidden;
+}
+
+/* first container */
+.scon .content .con1{
+    width: 60%; height: 100%;
+    background-color: #fff;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.scon .content .con1:hover
+,.con2:hover,.con3:hover,.con4:hover{
+    box-shadow: 0px 0px 20px black;
+    cursor: pointer;
+}
+ .scon .content .con1:hover h2{
+    font-size: 40px;
+} 
+.scon .content .con1 img{
+    width: 100%;height: 87%;
+}
+.scon .content .con1 h2{
+    position: absolute;
+    bottom: 15px;left: 10px;
+    color: #fff;
+    font-family: "hoefler", "Times New Roman", Times, serif;
+    font-size: 36px;
+}
+.scon .content .con1 p{
+    font-size: 13px;
+    margin-top: 0;
+}
+/* second container */
+.scon .content .con2{
+    width: 35%; height: 100%;
+    background-color: #fff;
+    float: left;
+    margin-left: 5%;
+    position: relative;
+    overflow: hidden;
+}
+.scon .content .con2:hover h2{
+    font-size: 33px;
+} 
+.scon .content .con2 img{
+    width: 100%;height: 87%;
+}
+.scon .content .con2 h2{
+    position: absolute;
+    top: -10px;left: 10px;
+    color: #fff;
+    font-family: "hoefler", "Times New Roman", Times, serif;
+    font-size: 30px;
+}
+.scon .content .con2 p{
+    font-size: 13px;
+    margin-top: 0;
+}
+
+.scon .content .content2{
+    width: 95%; height: 48.5%;
+    margin:2% 2.5%;
+    overflow: hidden;
+}
+/* third container */
+.scon .content .con3{
+    width: 35%; height: 100%;
+    background-color: #fff;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.scon .content .con3:hover h2{
+    font-size: 30px;
+} 
+.scon .content .con3 img{
+    width: 100%;height: 87%;
+}
+.scon .content .con3 h2{
+    position: absolute;
+    top: -10px;left: 10px;
+    color: #fff;
+    text-shadow: 0px 0px 10px black;
+    font-family: "hoefler", "Times New Roman", Times, serif;
+    font-size: 27px;
+
+}
+.scon .content .con3 p{
+    font-size: 13px;
+    margin-top: 0;
+}
+/* fourth container */
+.scon .content .con4{
+    width: 60%; height: 100%;
+    background-color: #fff;
+    float: left;
+    margin-left: 5%;
+    position: relative;
+    overflow: hidden;
+}
+.scon .content .con4:hover h2{
+    font-size: 30px;
+} 
+.scon .content .con4 img{
+    width: 100%;height: 87%;
+}
+.scon .content .con4 h2{
+    position: absolute;
+    bottom: 15px;left: 10px;
+    color: #fff;
+    text-shadow: 0px 0px 10px black;
+    font-family: "hoefler", "Times New Roman", Times, serif;
+    font-size: 27px;
+
+}
+.scon .content .con4 p{
+    font-size: 13px;
+    margin-top: 0;
+}
+/* end of our work */
+.lineshadow{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 2%;
+    opacity: .5;
+}
+/* start of examples  */
+.whyus{position: relative;}
+.whyus img{
+    margin-top:-5%; 
+    width: 100%; height: 600px;
+    background-size: cover;
+    opacity: .8;
+}
+.whyus h1{
+    width: auto;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: -15%;left: 29%;
+    font-weight: 5px;font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.whyus .yus1 ,.yus2 ,.yus3{
+    width:20%;height: 400px;
+    background-color: rgba(233, 233, 233, .45);
+    position: absolute;
+    border-radius: 25px;
+    }
+    .whyus .yus1:hover
+   ,.yus2:hover
+   ,.yus3:hover{
+       animation-name: zoomin ;
+       animation-duration: .5s;
+       animation-fill-mode: both;
+       box-shadow: 0 0 10px black;
+       cursor: pointer;
+       color: #263e21;
+   }
+.whyus .yus1{
+   top: 10%;left: 12%;
+  }
+  .whyus .yus2{
+    top: 10%;left:37.5%;
+}
+  .whyus .yus3{
+    top: 10%;left: 63%;
+  }
+  .whyus .yus1 img,
+  .yus2 img, .yus3 img{
+      width:100px;height: auto;
+      margin: 5% 0 0 30%;
+  }
+  .whyus .yus1 h2 ,
+  .yus2 h2 , .yus3 h2{
+      margin-left: 30%;
+  }
+  .whyus .yus1 p ,
+  .yus2 p , .yus3 p{
+      padding: 0 10%; 
+  }
+@keyframes zoomin{
+    0% { 
+        transform: scale3d(1, 1, 5); 
+    } 
+    100% { 
+        transform: scale3d(1.05, 1.05, 10); 
+    } 
+}
+/* end of examples */
+/* start of person */
+.person{position: relative;width: 100%}
+.person img{
+    border-radius: 50%;
+    box-shadow: 0 0 10px black;
+    margin: 5% 0 0 20%;
+}
+.person p:first-of-type{
+    width: 50%;
+    display: inline;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    font-size: 25px;
+    color: #2f730b;
+}
+.person p:last-of-type{
+    width: 50%;
+    display: inline;
+    position: absolute;
+    top: 80%;
+    left: 35%;
+    font-size: 18px;
+    color: #759f82;
+} 
+/* end of person */
+/* start of contact us */
+.contact{
+    width: 100%;height: 550px;
+    background-color: #232f20;
+    position: relative;
+    top: 2%;
+}
+.contact .msg{
+    float: left;
+    width: 50%;
+}
+.contact .msg h1{
+margin-left: 40%;
+margin-top: 10%;
+font-size: 50px;
+color: #d2e0cd;
+}
+.contact .msg h2{
+    margin-left: 40%;
+    font-size: 30px;
+    color: #86ab79;
+    }
+.contact form{
+    float: left;
+    width: 50%;
+    margin-top: 5%;
+    line-height: 2;
+}
+.contact form label{
+    color: #d2e0cd;
+}
+.contact form label span{color: #d2e0cd94}
+.contact form input{
+    width: 60%;height: 30px;
+    background-color: #5d7a66d9;
+    border-color: #5d7a66d9;
+    color: #fff;
+}
+.contact form textarea{
+    width: 60%;height: 120px;
+    background-color: #5d7a66d9;
+    border-color: #5d7a66d9;
+    color: #fff;
+}
+.contact form button{
+    width: 120px;height: 50px;
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-top: 2%;
+}
+.contact form button:hover{
+    background-color: #026721;
+    transition-duration: .4s;
+    cursor: pointer;
+    border-color: #026721;
+}
+
+/* end of contact us */
+/* footer */
+.footer{
+    width: 100%;height: 80px;
+    background-color: #363a35;
+    margin-top: 5%;
+}
+.footer p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #fff
+}
